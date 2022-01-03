@@ -1,9 +1,9 @@
 # Aleksandrova Anastasia
 *****
 * ## Contact me
-    + Instagram - _sunlight.8 
-    + VK - @sunlightly
-    + GitHub - Ninjagoo
+    + Telegram - [https://t.me/anasttasiaa_8](anasttasiaa_8)  
+    + VK - [https://vk.com/sunnylightt](@sunnylightt)
+    + GitHub - [https://github.com/Ninjagoo](Ninjagoo)
 *****
 Student of BSUIR, Minsk, Belarus
 1st course
