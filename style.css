@@ -1,0 +1,24 @@
+body{
+    margin-top: 2.5em;
+}
+a{
+    border-radius: 25px;
+    border-width: 0.025em;
+    box-shadow:0 0 10px rgba(0,0,0,0.5);
+    background-color: mistyrose;
+    text-align: center;
+    padding:0.5em;
+    text-decoration:none;
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    margin:0.5em;
+}
+.button1{
+    font-size: 1em;
+}
+.button2{
+    font-size: 1.5em;
+}
+.button3{
+    font-size: 2em;
+}
