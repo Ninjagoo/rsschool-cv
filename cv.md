@@ -14,7 +14,7 @@ I like to deal with hard problems in team and help everybody. Also I have creati
 
 ## Skills
 **JS**            **Git**            **Java**
-![diagram](rsschool-cv\diagram.png)
+![diagram](diagram.png)
 
 --------------------------------
 
