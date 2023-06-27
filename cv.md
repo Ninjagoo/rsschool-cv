@@ -1,10 +1,13 @@
 # Anastasiya Aliaksandrova
 -----------------------------------
+
 ## Contacts
 * Telegram [@anasttasiaa8](https://t.me/anasttasiaa8)
 * Email anasttasia238@gmail.com
 * Github [Ningagoo](https://github.com/Ninjagoo)
+
 -----------------------------------
+
 ## About me
 My aims are concerned in making things better, learning all the time, gaining experince and new skills.
 
