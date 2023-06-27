@@ -1,9 +1,9 @@
 # Anastasiya Aliaksandrova
 -----------------------------------
 ## Contacts
-* Telegram @anasttasiaa8
+* Telegram [@anasttasiaa8](https://t.me/anasttasiaa8)
 * Email anasttasia238@gmail.com
-* Github Ningagoo
+* Github [Ningagoo](https://github.com/Ninjagoo)
 -----------------------------------
 ## About me
 My aims are concerned in making things better, learning all the time, gaining experince and new skills.
@@ -13,7 +13,7 @@ I like to deal with hard problems in team and help everybody. Also I have creati
 --------------------------------
 
 ## Skills
-**JS**----------------**Git**----------------**Java**
+**JS** ---------------- **Git** ---------------- **Java**
 
 ![diagram](diagram.png)
 
@@ -39,6 +39,6 @@ console.log(boolToWord( bool ));
 
 --------------------------------
 ## Language
-English (B2)
-Russian (native)
-Belarusian (fluently)
+* English (B2)
+* Russian (native)
+* Belarusian (fluently)
