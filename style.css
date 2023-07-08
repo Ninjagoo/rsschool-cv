@@ -11,3 +11,20 @@ body {
 header, main, footer {
     border: 1px solid green;
 }
+ul > li {
+    list-style-type: none;
+}
+.navigation {
+    text-align: center;
+}
+.navigation li {
+    display:inline-block;
+    margin:10px 20px;
+}
+.navigation a {
+    display:block;
+    text-decoration: none;
+}
+.navigation a:hover{
+    color: #feb386;
+}
