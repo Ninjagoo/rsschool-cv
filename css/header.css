@@ -9,8 +9,8 @@ body {
 * {
     box-sizing: border-box;
 }
-header, main, footer {
-    border: 1px solid green;
+header{
+    background-color:#93b7be;
 }
 ul > li {
     list-style-type: none;
@@ -22,11 +22,13 @@ ul > li {
     display:inline-block;
     margin:10px 20px;
 }
+
 .navigation a {
     display:block;
     text-decoration: none;
+    color:black;
 }
 .navigation a:hover{
-    color: #feb386;
+    color: #F52100;
 }
 
