@@ -1,0 +1,41 @@
+main{
+    padding:0px 150px;
+    background: rgb(146,187,213);
+    background: linear-gradient(164deg, rgba(146,187,213,1) 13%, rgba(99,183,189,1) 35%, rgba(86,78,77,1) 100%);
+}
+article{
+    background-color:white;
+}
+.about-items{
+    display: flex;
+    gap: 20px;
+}
+.start-label{
+    margin:50px;
+    font-weight: 200;
+    font-style: italic;
+}
+button{
+    display:block;
+    margin:30px 0px;
+    background: rgb(146,187,213);
+
+    color:white;
+    font-weight: 800;
+    border-radius:25px;
+    width:30vh;
+    height: 5vh;
+}
+.photo{
+    height: 50vh;
+}
+h1{
+    font-weight: 900;
+    font-style: italic;
+}
+.my-words{
+    padding:30px 50px;
+    text-align: center;
+    font-weight: 300;
+    background-color:azure;
+}
