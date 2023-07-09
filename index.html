@@ -3,8 +3,181 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>cv</title>
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,200;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <nav>
+            <ul class="navigation">
+                <li><a class="menu-item" href="#about">About</a></li>
+                <li><a class="menu-item" href="#skills">Skills</a></li>
+                <li><a class="menu-item" href="#education">Education</a></li>
+                <li><a class="menu-item" href="#languages">Languages</a></li>
+                <li><a class="menu-item" href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <section id="about">
+            <div class="about-items">
+                <img src="assets/photo.jpg" alt="photo" class="photo">
+                <div class="start-label">
+                    <span>Hello, My Name Is</span>
+                    <h1>Anastasia Aleksandrova</h1>
+                    <span class="profession-label">- A Creative Freelancer & Web Developer</span>
+                    <p class="country"><img src="assets/icon-pin.png" width="20" height="20" alt="pin">Minsk, Belarus</p>
+                    <p class="email"><a href="mailto:anasttasia238@gmail.com">anasttasia238@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="stroke"></div>
+            <div class="my-words">
+                <p>My aims are concerned in making things better, learning all the time, gaining experince and new skills.</p>
+                <p>I like to deal with hard problems in team and help everybody. 
+                    Also I have creative side which try to make all around more beautiful 
+                    and can see different excellent matches of colors. </p> 
+            </div>
+            <div class="stroke"></div>
+        </section>
+
+        <section id="skills">
+            <h2>My Skills</h2>
+            <hr>
+            <p class="under-skills">Hard Skills</p>
+            <div class="list-skills">
+                <div class="chart">HTML
+                    <div class="pie" style="--p:80;--b:10px;--c:#5C95AD;">60%</div>
+                </div>
+                <div class="chart">SCSS
+                    <div class="pie" style="--p:70;--b:10px;--c:#6EB4D1;">70%</div>
+                </div>
+                <div class="chart">JS
+                    <div class="pie" style="--p:60;--b:10px;--c:#CB152B;">60%</div>
+                </div>
+                <div class="chart">Git
+                    <div class="pie" style="--p:35;--b:10px;--c:#6285A7;">35%</div>
+                </div>
+                <div class="chart">Java
+                    <div class="pie" style="--p:50;--b:10px;--c:#00A2B8;">60%</div>
+                </div>
+            </div>
+            <hr>
+            <p class="under-skills">Soft Skills</p>
+            <ul class="soft-skills-list">
+                <li>
+                    <div class="soft-skills">
+                        <img src="assets/icon-collaboration.png" alt="icon-collaboration" class="icon-skills"> 
+                        <p>Teamwork</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="soft-skills">
+                        <img src="assets/icon-organization.png" alt="icon-organization" class="icon-skills">
+                        <p>Organization skills</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="soft-skills">
+                        <img src="assets/icon-creativity.png" alt="icon-creativity" class="icon-skills">
+                        <p>Creativity</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="soft-skills">
+                        <img src="assets/icon-responsibility.png" alt="icon-responsibility" class="icon-skills">
+                        <p>Responsibility</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section id="code">
+            <h2>Code example</h2>
+            <hr>
+            <p>From random task</p>
+            <div class="example">
+            <pre>
+                <code>
+                    function solution(str){
+                        const reverse = str.split('').reverse().join('');
+                        return reverse;
+                    }
+                </code>
+            </pre>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <hr>
+            <div class="list-education">
+                <div class="list">
+                    <p>Still will</p>
+                    <a href="https://www.bsuir.by/">Belarusian State University of Informatics and Radioelectronics</a>
+                    <p>Courses</p>
+                    <ul class="courses-list">
+                        <li><a href="https://www.udemy.com/share/10208o3@ntAdKURuAX-kPIe5CyM0QV9N61DxGPUt4NhD-1_5n6tma3_7FYgB4PF1y_u4OvDQfw==/" target="_blank">Full course on JavaScript + React - from scratch to the result</a></li>
+                        <li><a href="https://rs.school/js-stage0/" target="_blank">Introduction to JavaScript (Powered by RS School)</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="languages">
+            <h2>Languages</h2>
+            <hr>
+            <ul class="list-languages">
+                <li>
+                    <div class="english">
+                        <p>English B2</p>
+                        <a href="https://www.efset.org/cert/MGfFmw"><img src="assets/EFSET-logo.jpg" alt="efset-logo" width="90" height="40"></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="native">
+                        <p>Russian native</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="native">
+                        <p>Belarusian fluently</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer id="contacts">
+        <ul class="footer_links">
+            <li class="footer_item">
+                <a class="github" href="https://github.com/Ninjagoo">
+                <img src="assets/icon-github.png" alt="icon-github" height="30" width="30"> </a>
+            </li>
+            <li class="footer_item">
+                <a class="instagram" href="https://instagram.com/_sunlightly?igshid=OGQ5ZDc2ODk2ZA==">
+                <img src="assets/icon-instagram.png" alt="icon-instagram" height="30" width="30"></a>
+            </li>
+            <li class="footer_item">
+                <a class="rsschool" href="https://rs.school/js-stage0/">
+                <img src="assets/rs_school_js.svg" alt="rsschool" width="100" height="30"></a>
+            </li>
+            <li class="footer_item">
+                <a class="telegram" href="https://t.me/anasttasiaa8">
+                <img src="assets/icon-telegram.png" alt="icon-telegram" height="30" width="30"></a>
+            </li>
+            <li class="footer_item">
+                <a class="linkedin" href="https://www.linkedin.com/in/anastasia-aleksandrova-149aab271/">
+                <img src="assets/icon-linkedin.png" alt="icon-linkedin" height="30" width="30"> </a>
+            </li>
+        </ul>
+        <p class="year">2023</p>
+    </footer>
 </body>
 </html>

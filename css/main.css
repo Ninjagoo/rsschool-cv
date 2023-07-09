@@ -1,0 +1,201 @@
+main{
+    padding:0px 150px;
+    background-color: #2B303A;
+}
+
+#about{
+    background-color:#FFFDF7;
+}
+#skills, #code, #education, #languages{
+    padding: 20px 0 0 0;
+}
+article{
+    margin:0px 0px 30px 0px;
+}
+.about-items{
+    display: flex;
+    gap: 20px;
+}
+.profession-label{
+    font-size: 17px;
+}
+.start-label{
+    margin:50px 50px 0px 50px;
+    font-weight: 200;
+    font-style: italic;
+}
+.country{
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: underline;
+    padding-top:10px;
+}
+.photo{
+    height: 50vh;
+}
+h1{
+    font-weight: 900;
+    font-style: italic;
+}
+ 
+.my-words{
+    width:fit-content;
+    height: fit-content;
+    padding:30px 50px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 17px;
+}
+.email a{
+    color:#5C95AD;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.stroke{
+    height:21px;
+    width:100%;
+    background-color:#F52100;
+}
+
+/* SKILLS */
+
+.list-skills{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.chart {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: #FFFDF7;  
+    margin: 10px 0px;
+}
+.chart:hover{
+    transform: scale(1.5);
+    transition: 1s;
+    cursor: pointer;
+}
+.pie {
+    --w:100px;
+    width: var(--w);
+    aspect-ratio: 1;
+    position: relative;
+    display: inline-grid;
+    place-content: center;
+    margin: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  .pie:before {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    inset: 0;
+    background: conic-gradient(var(--c) calc(var(--p)*1%),#0000 0);
+    -webkit-mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+            mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+  }
+h2{
+    color:#F52100;
+}
+
+.under-skills{
+    color:#5C95AD;
+}
+.soft-skills-list{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    text-align: center;
+}
+.icon-skills{
+    width:60px; height: 60px;
+}
+.soft-skills{
+    padding: 50px;
+    font-weight: 300;
+    background-color:#FFFDF7;
+    width:200px; height:200px;
+    font-weight: 500;
+}
+.soft-skills:hover{
+    background-color:#5C95AD;
+    transition: 1s;
+    transform: scale(1.2);
+    cursor:pointer;
+    color:#F52100;
+}
+
+.example{
+    background-color:#959FB1;
+}
+#code p{
+    font-weight: 300;
+    color:#FFFDF7;
+}
+
+/*EDUCATION*/
+
+.list-education{
+    border-left: 3px solid #F52100;
+    height: 150px;
+}
+#education > a{
+    text-decoration: none;
+    color:#FFFDF7;
+}
+#education > a:hover{
+    color:#F52100;
+}
+.list{
+    padding: 0px 0px 0px 20px;
+}
+.list p{
+    font-weight: 300;
+    color:#FFFDF7;
+}
+.list-education a{
+    color:#FFFDF7;
+}
+.courses-list{
+    padding:0;
+}
+
+/* LANGUAGES */
+
+.list-languages{
+    display: flex;
+    gap:20px;
+    padding: 0;
+}
+.list-languages div{
+    text-align: center;
+    padding: 20px;
+    height: 150px;
+    width: 200px;
+    color: #FFFDF7;
+    font-style: italic;
+}
+
+.english{
+    border: 5px solid #5C95AD;
+    font-weight: 800;
+    padding: 10px;
+}
+.english:hover {
+    box-shadow:inset 0 0 0 5px #5C95AD;
+    cursor:pointer;
+    transition: 0.8s;
+}
+.native {
+    border: 2px solid #F52100;
+    font-weight: 200;
+}
+.native:hover {
+    box-shadow:inset 0 0 0 8px #F52100;
+    cursor:pointer;
+    transition: 0.8s;
+}
