@@ -2,31 +2,29 @@ main{
     padding:0px 150px;
     background-color: #2B303A;
 }
-article{
+#about{
     background-color:#FFFDF7;
-
+}
+article{
+    margin:0px 0px 30px 0px;
 }
 .about-items{
     display: flex;
     gap: 20px;
 }
+.profession-label{
+    font-size: 17px;
+}
 .start-label{
-    margin:50px;
+    margin:50px 50px 0px 50px;
     font-weight: 200;
     font-style: italic;
 }
-button{
-    display:block;
-    margin:30px 0px;
-    background: #F52100;
-    border:0px;
-    margin-top:50px;
-    color:#FFFDF7;
-    font-weight: 800;
-    font-style: italic;
-    border-radius:25px;
-    width:30vh;
-    height: 5vh;
+.country{
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: underline;
+    padding-top:10px;
 }
 .photo{
     height: 50vh;
@@ -37,10 +35,26 @@ h1{
 }
  
 .my-words{
+    width:fit-content;
+    height: fit-content;
     padding:30px 50px;
     text-align: center;
     font-weight: 300;
+    font-size: 17px;
+}
+.email a{
+    color:#5C95AD;
+    font-style: normal;
+    font-weight: 500;
 
+}
+.email{
+    padding:10px 0px;
+}
+.stroke{
+    height:20px;
+    width:100%;
+    background-color:#F52100;
 }
 
 /* DIAGRAMS */
@@ -54,7 +68,7 @@ h1{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    color: #999;  
+    color: #FFFDF7;  
     margin: 10px 0px;
 
 }
@@ -80,3 +94,40 @@ h1{
     -webkit-mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
             mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
   }
+h2{
+    color:#F52100;
+}
+.under-skills{
+    color:#5C95AD;
+}
+.soft-skills-list{
+    display: flex;
+
+    justify-content: space-between;
+
+}
+.soft-skills-list > li > div{
+    text-align: center;
+    
+    width:30vh;
+    height: 20vh;
+
+    font-weight: 300;
+    background-color:#5C95AD;
+}
+
+.example{
+    background-color:#959FB1;
+}
+#education{
+    font-weight: 800;
+    font-style: italic;
+    color: whitesmoke;
+}
+#education > a{
+    text-decoration: none;
+    color:#FFFDF7;
+}
+#education > a:hover{
+    color:#F52100;
+}

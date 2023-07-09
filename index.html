@@ -12,17 +12,17 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,200;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,200;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav>
             <ul class="navigation">
-                <li><a href="#about">About</a></li>
-                <li><a href="">Skills</a></li>
-                <li><a href="">Contacts</a></li>
-                <li><a href="">Education</a></li>
-                <li><a href="">Languages</a></li>
+                <li><a class="menu-item" href="#about">About</a></li>
+                <li><a class="menu-item" href="">Skills</a></li>
+                <li><a class="menu-item" href="">Contacts</a></li>
+                <li><a class="menu-item" href="#education">Education</a></li>
+                <li><a class="menu-item" href="">Languages</a></li>
             </ul>
         </nav>
 
@@ -35,20 +35,23 @@
                     <span>Hello, My Name Is</span>
                     <h1>Anastasia Aleksandrova</h1>
                     <span class="profession-label">- A Creative Freelancer & Web Developer</span>
-                    <button class="Download">Download CV</button>
+                    <p class="country"><img src="assets/icon-pin.png" width="20" height="20">Minsk, Belarus</p>
+                    
                 </div>
             </div>
-
+            <div class="stroke"></div>
             <div class="my-words">
                 <p>My aims are concerned in making things better, learning all the time, gaining experince and new skills.</p>
-
                 <p>I like to deal with hard problems in team and help everybody. 
                     Also I have creative side which try to make all around more beautiful 
                     and can see different excellent matches of colors. </p> 
             </div>
+            <div class="stroke"></div>
         </article>
 
         <article id="skills">
+            <h2>My Skills</h2>
+            <p class="under-skills">Hard Skills</p>
             <div class="list-skills">
                 <div class="chart">HTML
                     <div class="pie" style="--p:80;--b:10px;--c:#3BAFF7;">60%</div>
@@ -66,7 +69,44 @@
                     <div class="pie" style="--p:50;--b:10px;--c:#FFA3A5;">60%</div>
                 </div>
             </div>
+            <p class="under-skills">Soft Skills</p>
+            <ul class="soft-skills-list">
+                <li>
+                    <div class="soft-skills">Teamwork</div>
+                </li>
+                <li>
+                    <div class="soft-skills">Organization skills</div>
+                </li>
+                <li>
+                    <div class="soft-skills">Creativity</div>
+                </li>
+                <li>
+                    <div class="soft-skills">Responsibility</div>
+                </li>
+            </ul>
         </article>
+
+        <article class="code">
+            <h2>Example of code</h2>
+            <div class="example">
+            <pre>
+                <code>
+                    function solution(str){
+                        const reverse = str.split('').reverse().join('');
+                        return reverse;
+                    }
+                </code>
+            </pre>
+            </div>
+        </article>
+
+        <article id="education">
+            <h2>Education</h2>
+            <p>Still will</p>
+            <a href="https://www.bsuir.by/">Belarusian State University of Informatics and Radioelectronics</a>
+
+        </article>
+
     </main>
     <footer>
 
