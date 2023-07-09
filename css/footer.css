@@ -1,0 +1,18 @@
+.footer_links{
+    text-align: center;
+    display: flex;
+    padding: 0px 40%;
+    gap: 10px;
+}
+#languages{
+    padding-bottom: 30px;
+}
+#contacts {
+    background-color:#FFFDF7;
+    padding: 10px 0;
+}
+.year{
+    text-align: center;
+    border-bottom: 2px solid #F52100;
+    margin: 0 40%;
+}
