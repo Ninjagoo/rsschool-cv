@@ -57,7 +57,7 @@ h1{
     background-color:#F52100;
 }
 
-/* DIAGRAMS */
+/* SKILLS */
 
 .list-skills{
     display: flex;
@@ -100,6 +100,7 @@ h1{
 h2{
     color:#F52100;
 }
+
 .under-skills{
     color:#5C95AD;
 }
@@ -130,10 +131,16 @@ h2{
 .example{
     background-color:#959FB1;
 }
-#education{
-    font-weight: 800;
-    font-style: italic;
-    color: whitesmoke;
+.code p{
+    font-weight: 300;
+    color:#FFFDF7;
+}
+
+/*EDUCATION*/
+
+.list-education{
+    border-left: 3px solid #F52100;
+    height: 150px;
 }
 #education > a{
     text-decoration: none;
@@ -141,4 +148,17 @@ h2{
 }
 #education > a:hover{
     color:#F52100;
+}
+.list{
+    padding: 0px 0px 0px 20px;
+}
+.list p{
+    font-weight: 300;
+    color:#FFFDF7;
+}
+.list-education a{
+    color:#FFFDF7;
+}
+.courses-list{
+    padding:0;
 }
