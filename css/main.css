@@ -50,13 +50,10 @@ h1{
     color:#5C95AD;
     font-style: normal;
     font-weight: 500;
+}
 
-}
-.email{
-    padding:10px 0px;
-}
 .stroke{
-    height:20px;
+    height:21px;
     width:100%;
     background-color:#F52100;
 }
